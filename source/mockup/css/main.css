@@ -1,0 +1,53 @@
+/* 
+    Document   : main
+    Created on : 21.09.2012, 10:54:37
+    Author     : Florian
+    Description: Purpose of the stylesheet follows.
+*/
+
+body {
+    font-family:            arial;
+    font-size:              14px;
+}
+
+div.search-form {
+    width:                  700px;
+    background:             #FCFCFC;
+    border:                 1px dotted #cecece;
+    padding:                10px;
+}
+
+#quickfind { 
+    border:                 1px solid #cecece; 
+    width:                  600px;
+}
+
+#search-button { 
+    border:                 1px solid #c5c900; 
+    width:                  100px;
+    background:             #dff2bf;
+  /* background:              #DFF2BF;*/
+    margin-left:            565px;
+    margin-top:             5px;
+
+    
+}
+
+div.book-result {
+    border:                 1px dotted #cecece;
+    /*width:                  100%;*/
+    padding:                10px;
+    margin-bottom:          10px;
+}
+
+div.book-content-result {
+    width:                  720px;
+    margin-top:             10px;
+    display:                block;
+}
+
+h3 {
+    border-bottom:          1px solid #cecece;
+    width:                  720px;
+}
+

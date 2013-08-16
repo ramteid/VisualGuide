@@ -1,0 +1,22 @@
+/* 
+    Document         : mobile
+    Created on       : 2012-09-11   
+    Author           : DK-Group Augsburg students
+    Version          : 1.0
+    Description      : Stylesheet for the mobile view of Visual Guide
+    Last Modification: 2012-09-25 / PVO
+*/
+
+#content .content {
+    background-color: #FFFFFF !important;
+    overflow: auto;
+}
+
+#content {
+    background-color: #FFFFFF !important;
+    width: 1000px !important;
+}
+
+.ui-dialog-title {
+    font-size: 18px !important;
+}

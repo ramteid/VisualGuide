@@ -1,0 +1,158 @@
+/* 
+    Document         : main
+    Created on       : 2012-09-12   
+    Author           : DK-Group Augsburg students
+    Version          : 1.0
+    Description      : Stylesheet for the admin view of Visual Guide
+    Last Modification: 2012-09-24 / PVO
+*/
+
+/**
+ * START toolbar
+ */
+ 
+ /**
+  * Set the size, margin and float of the toolbar with panel and content
+  */
+#toolbar {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 250px;
+    height: 475px;
+    float: left;
+}
+
+/**
+ * Size and margin of the toolbar panel
+ */
+#toolbar .panel {
+    margin-top: 1px;
+    width: 100%;
+    height: 27px;
+}
+
+/**
+ * Size and position of the toolbar content
+ * clear - remove the fload right
+ */
+#toolbar .content {
+    clear: right;
+    width: 100%;
+    height: 89%;
+    overflow: auto;   
+}
+
+/**
+ * Set the margin of furnitures in the toolbar
+ */
+.tools {
+    margin: 10px;
+}
+/**
+ * END
+ */
+
+/**
+ * Override the margin and with declarations of main.css
+ */
+#content {
+    margin: 0px !important;
+    width: 75% !important;
+    
+}
+
+/**
+ * Override the height declaration of main.css
+ */
+#content .content {
+    height: 80% !important;
+}
+
+/**
+ * Position, size and graphic of the delte icons
+ */
+.delIco {
+    background: transparent url('../../gfx/error.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+/**
+ * Float of the trash bins
+ */
+.del {
+    float: right;
+}
+
+.delHide {
+    display: none;
+    float: right;
+}
+
+/* START add categories */
+input .text {
+    margin-bottom: 12px;
+    width: 95%;
+    padding: .4em;
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+.ui-dialog .ui-state-error {
+    padding: .3em;
+}
+
+.validateTips {
+    border: 1px solid transparent;
+    padding: .3em;
+}
+
+/**
+ * The addCategories form will only appear if the user click on shelfs
+ */
+#addCategories-form {
+    display: none;
+}
+/* END */
+
+/**
+ * Size of the button bar
+ * display: none - The button bar will only appear if the room loads.
+ */
+.buttonPanel {
+    display: none;
+    width: 100%;
+    height: 20%;
+}
+
+/**
+ * Size of the buttons in the button bar
+ */
+.buttonPanel button {
+    width: 155px;
+    height: 30px;
+}
+
+/**
+ * Position of the logout container
+ */
+#logout {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+/**
+ * Size of the logout button
+ */
+.logout {
+    width: 80px;
+    height: 25px;
+}

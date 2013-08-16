@@ -1,0 +1,110 @@
+/* 
+    Document         : main
+    Created on       : 2012-09-08   
+    Author           : DK-Group Augsburg students
+    Version          : 1.0
+    Description      : Stylesheet for the normal user view of Visual Guide
+    Last Modification: 2012-09-24 / PVO
+*/
+
+/**
+ * Size, margin, padding and font styles for the whole website
+ */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: arial;
+    font-size: 12px;
+}
+
+/**
+ * Width of the main container
+ */
+#main {
+    width: auto !important;
+    width: 100%;
+}
+
+/**
+ * Size, margin and float of the content
+ */
+#content {
+    float: left;
+    height: 475px;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*+
+ * Size of the content
+ */
+#content .content {
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ * Styles for texts in the headline container
+ */
+.head {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/**
+ * Text alignment of the header
+ */
+#head {
+    text-align: center;
+}
+
+/**
+ * MessageBox with different styles (info, success, error)
+ */
+.msgBox {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+}
+
+/**
+ * Range of colours: Different types of yellow
+ */
+.info {
+    background: #fdf5ce url('../gfx/info.png') no-repeat;
+    border: 1px solid #f6a828;
+    color: #f6a828;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/**
+ * Range colours: Different types of green
+ */
+.success {
+    background: #e1f7e1 url('../gfx/success.png') no-repeat;
+    border: 1px solid #33cc33;
+    color: #339900;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/**
+ * Range of colours: Different types of red
+ */
+.error {
+    background: #ffd9d9 url('../gfx/error.png') no-repeat;
+    border: 1px solid #cd0921;
+    color: #cd0921;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+}
